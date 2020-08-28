@@ -1,238 +1,238 @@
-                html {
-                scroll-behavior: smooth;
-            }
-            
-            .container {
-                margin: 0;
-                padding: 0;
-            }
-            
-            a {
-                color: black;
-            }
-            
-            a:hover {
-                cursor: pointer;
-                text-decoration-style: none;
-                color: black;
-            }
-            
-            body {
-                background: #dfdbdb;
-                font-family: 'Poppins', sans-serif;
-                font-family: 'Source Sans Pro', sans-serif;
-                font-family: 'Suwannaphum', cursive;
-            }
-            
-            .lorem {
-                font-family: 'Poppins', sans-serif;
-                font-family: 'Source Sans Pro', sans-serif;
-                font-family: 'Suwannaphum', cursive;
-            }
-            
-            .head-text {
-                font-family: 'Poppins', sans-serif;
-                font-family: 'Source Sans Pro', sans-serif;
-                font-family: 'Suwannaphum', cursive;
-            }
-            
-            .part1 {
-                background-image: url(/assets/images/p4.jpeg);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-            }
-            
-            .part2 {
-                background-image: url(/assets/images/nicolas-j-leclercq--jTRSHF__eQ-unsplash.jpg);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-            }
-            
-            .part3 {
-                background-image: url(/assets/images/pexels-designecologist-1248583.jpg);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-            }
-            
-            .part4 {
-                background-image: url(/assets/images/leather-chair-furniture-sofa-couch-lounge-1416078-pxhere.com_.jpg);
-                background-repeat: no-repeat;
-                background-size: cover;
-                background-position: center;
-            }
-            
-            .block>ul>li {
-                padding-right: 10px;
-                cursor: pointer;
-            }
-            
-            .big_name {
-                font-size: xx-large;
-                color: rgb(255, 255, 255);
-                padding-top: 40px;
-                text-align: center;
-            }
-            
-            .buttons {
-                padding-top: 30%;
-                text-align: center;
-            }
-            
-            #logo {
-                text-transform: uppercase;
-                font-size: 30px;
-                font-weight: 900;
-                font-family: 'Alata', sans-serif;
-                cursor: pointer;
-            }
-            
-            . logo>a {
-                color: grey !important;
-            }
-            
-            .nav {
-                justify-content: space-between;
-                padding: 10px;
-                position: sticky;
-                display: flex;
-            }
-            
-            .blockB>ul>a {
-                padding-left: 20px;
-                cursor: pointer;
-            }
-            
-            .blockB>ul>a:hover {
-                text-decoration: none;
-            }
-            
-            .blockC {
-                width: 10vw;
-                z-index: 100;
-                background-color: chocolate;
-            }
-            
-            li {
-                display: inline;
-            }
-            
-            .arrow-down {
-                text-align: center;
-                color: white;
-            }
-            
-            a.button3 {
-                display: inline-block;
-                padding: 0.7em 3em;
-                margin: 0 0.3em 0.3em 0;
-                border-radius: 2em;
-                box-sizing: border-box;
-                text-decoration: none;
-                font-family: 'Roboto', sans-serif;
-                font-weight: 300;
-                color: #FFFFFF;
-                background-color: #919699;
-                text-align: center;
-                transition: all 0.2s;
-            }
-            
-            a.button3:hover {
-                background-color: #4095c66c;
-            }
-            
-            #menus {
-                z-index: 10;
-                position: -webkit-sticky;
-                position: sticky;
-            }
-            
-            footer {
-                padding: 50px;
-            }
-            
-            .align {
-                display: flex;
-                font-size: large;
-                text-align: center;
-            }
-            
-            .icons {
-                text-align: center;
-                font-size: 30px;
-                justify-content: center;
-            }
-            
-            .sidebar {
-                display: inline-block;
-            }
-            
-            .modal {
-                display: none;
-                /* Hidden by default */
-                position: fixed;
-                /* Stay in place */
-                z-index: 1;
-                /* Sit on top */
-                left: 0;
-                top: 0;
-                width: 100%;
-                /* Full width */
-                height: 100%;
-                /* Full height */
-                overflow: auto;
-                /* Enable scroll if needed */
-                background-color: rgb(0, 0, 0);
-                /* Fallback color */
-                background-color: rgba(0, 0, 0, 0.4);
-                /* Black w/ opacity */
-            }
-            
-            #mybtn {
-                border: none;
-            }
-            /* Modal Content/Box */
-            
-            .modal-content {
-                background-color: #be9393;
-                margin: 15% auto;
-                /* 15% from the top and centered */
-                padding: 20px;
-                border: 1px solid #888;
-                width: 40%;
-                /* Could be more or less, depending on screen size */
-            }
-            /* The Close Button */
-            
-            .links {
-                padding: 10px;
-                border-bottom: 2px solid grey;
-            }
-            
-            .close {
-                color: rgb(92, 88, 88);
-                text-align: right;
-                font-size: 28px;
-                font-weight: bold;
-            }
-            
-            .close:hover,
-            .close:focus {
-                color: black;
-                text-decoration: none;
-                cursor: pointer;
-            }
-            
-            @media (max-width: 767px) {
-                .blockB {
-                    display: none;
+                    html {
+                    scroll-behavior: smooth;
                 }
-            }
-            
-            @media all and (max-width:30em) {
+                
+                .container {
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                a {
+                    color: black;
+                }
+                
+                a:hover {
+                    cursor: pointer;
+                    text-decoration-style: none;
+                    color: black;
+                }
+                
+                body {
+                    background: #dfdbdb;
+                    font-family: 'Poppins', sans-serif;
+                    font-family: 'Source Sans Pro', sans-serif;
+                    font-family: 'Suwannaphum', cursive;
+                }
+                
+                .lorem {
+                    font-family: 'Poppins', sans-serif;
+                    font-family: 'Source Sans Pro', sans-serif;
+                    font-family: 'Suwannaphum', cursive;
+                }
+                
+                .head-text {
+                    font-family: 'Poppins', sans-serif;
+                    font-family: 'Source Sans Pro', sans-serif;
+                    font-family: 'Suwannaphum', cursive;
+                }
+                
+                .part1 {
+                    background-image: url(/assets/images/p4.jpeg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                }
+                
+                .part2 {
+                    background-image: url(/assets/images/nicolas-j-leclercq--jTRSHF__eQ-unsplash.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                }
+                
+                .part3 {
+                    background-image: url(/assets/images/pexels-designecologist-1248583.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                }
+                
+                .part4 {
+                    background-image: url(/assets/images/leather-chair-furniture-sofa-couch-lounge-1416078-pxhere.com_.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                }
+                
+                .block>ul>li {
+                    padding-right: 10px;
+                    cursor: pointer;
+                }
+                
+                .big_name {
+                    font-size: xx-large;
+                    color: rgb(255, 255, 255);
+                    padding-top: 40px;
+                    text-align: center;
+                }
+                
+                .buttons {
+                    padding-top: 30%;
+                    text-align: center;
+                }
+                
+                #logo {
+                    text-transform: uppercase;
+                    font-size: 30px;
+                    font-weight: 900;
+                    font-family: 'Alata', sans-serif;
+                    cursor: pointer;
+                }
+                
+                . logo>a {
+                    color: grey !important;
+                }
+                
+                .nav {
+                    justify-content: space-between;
+                    padding: 10px;
+                    position: sticky;
+                    display: flex;
+                }
+                
+                .blockB>ul>a {
+                    padding-left: 20px;
+                    cursor: pointer;
+                }
+                
+                .blockB>ul>a:hover {
+                    text-decoration: none;
+                }
+                
+                .blockC {
+                    width: 10vw;
+                    z-index: 100;
+                    background-color: chocolate;
+                }
+                
+                li {
+                    display: inline;
+                }
+                
+                .arrow-down {
+                    text-align: center;
+                    color: white;
+                }
+                
                 a.button3 {
-                    display: block;
-                    margin: 0.2em auto;
+                    display: inline-block;
+                    padding: 0.7em 3em;
+                    margin: 0 0.3em 0.3em 0;
+                    border-radius: 2em;
+                    box-sizing: border-box;
+                    text-decoration: none;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 300;
+                    color: #FFFFFF;
+                    background-color: #919699;
+                    text-align: center;
+                    transition: all 0.2s;
                 }
+                
+                a.button3:hover {
+                    background-color: #4095c66c;
+                }
+                
+                #menus {
+                    z-index: 10;
+                    position: -webkit-sticky;
+                    position: sticky;
+                }
+                
+                footer {
+                    padding: 50px;
+                }
+                
+                .align {
+                    display: flex;
+                    font-size: large;
+                    text-align: center;
+                }
+                
+                .icons {
+                    text-align: center;
+                    font-size: 30px;
+                    justify-content: center;
+                }
+                
+                .sidebar {
+                    display: inline-block;
+                }
+                
+                .modal {
+                    display: none;
+                    /* Hidden by default */
+                    position: fixed;
+                    /* Stay in place */
+                    z-index: 1;
+                    /* Sit on top */
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    /* Full width */
+                    height: 100%;
+                    /* Full height */
+                    overflow: auto;
+                    /* Enable scroll if needed */
+                    background-color: rgb(0, 0, 0);
+                    /* Fallback color */
+                    background-color: rgba(0, 0, 0, 0.4);
+                    /* Black w/ opacity */
+                }
+                
+                #mybtn {
+                    border: none;
+                }
+                /* Modal Content/Box */
+                
+                .modal-content {
+                    background-color: #be9393;
+                    margin: 15% auto;
+                    /* 15% from the top and centered */
+                    padding: 20px;
+                    border: 1px solid #888;
+                    width: 40%;
+                    /* Could be more or less, depending on screen size */
+                }
+                /* The Close Button */
+                
+                .links {
+                    padding: 10px;
+                    border-bottom: 2px solid grey;
+                }
+                
+                .close {
+                    color: rgb(92, 88, 88);
+                    text-align: right;
+                    font-size: 28px;
+                    font-weight: bold;
+                }
+                
+                .close:hover,
+                .close:focus {
+                    color: black;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+                
+                @media (max-width: 767px) {
+                    .blockB {
+                        display: none;
+                    }
+                }
+                
+                @media all and (max-width:30em) {
+                    a.button3 {
+                        display: block;
+                        margin: 0.2em auto;
+                    }

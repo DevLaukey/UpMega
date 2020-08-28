@@ -26,7 +26,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&family=Suwannaphum&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
     <!-- fullpage -->
+
     <link rel="stylesheet" type="text/css" href="https://unpkg.com/fullpage.js/dist/fullpage.min.css" />
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -92,7 +95,7 @@
                 </div>
 
                 <div class="big_name">
-                    <h1>Model X</h1>
+                    <h1>Tripple Set</h1>
                 </div>
                 <div class="buttons">
                     <a href="something" class="button3">Shop Now</a>
@@ -163,7 +166,7 @@
                     </div>
 
                     <div class="big_name">
-                        <h1>Model X</h1>
+                        <h1>Double Model</h1>
                     </div>
                     <div class="buttons">
                         <a href="something" class="button3">Shop Now</a>
@@ -233,7 +236,7 @@
                         </div>
 
                         <div class="big_name">
-                            <h1>Model X</h1>
+                            <h1>Single Model</h1>
                         </div>
                         <div class="buttons">
                             <a href="something" class="button3">Shop Now</a>
@@ -303,14 +306,14 @@
                             </div>
 
                             <div class="big_name">
-                                <h1>Model X</h1>
+                                <h1 style="color: black;">Sets</h1>
                             </div>
                             <div class="buttons">
                                 <a href="something" class="button3">Shop Now</a>
                                 <a href="something" class="button3">More Info</a>
                             </div>
                             <div class="arrow-down">
-                                <i class="fa fa-angle-double-down" style="font-size:36px"></i>
+                                <i class="fa fa-angle-double-down" style="font-size:36px; color: black;"></i>
                             </div>
                         </div>
 
@@ -318,7 +321,7 @@
                             <div class="align-content-center">
                                 <h3 style="text-align: center;">
                                     <a href="https://devlaukey.github.io/Victor-2.0/">
-                    Devlaukey &copy; 2020</a></h3>
+Devlaukey &copy; 2020</a></h3>
                                 <div class="icons">
                                     <a href="https://devlaukey.github.io/Victor-2.0/"> <i class="fab fa-instagram"></i></a>
                                     <a href="https://devlaukey.github.io/Victor-2.0/"> <i class="fab fa-facebook"></i></a>
@@ -329,6 +332,34 @@
 
 
                         </footer>
+                        <!-- aos -->
+                        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                        <script>
+                            AOS.init();
+                            / You can also pass an optional settings object
+                            // below listed default settings
+                            AOS.init({
+                                // Global settings:
+                                disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+                                startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+                                initClassName: 'aos-init', // class applied after initialization
+                                animatedClassName: 'aos-animate', // class applied on animation
+                                useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+                                disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+                                debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+                                throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+                                // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+                                offset: 120, // offset (in px) from the original trigger point
+                                delay: 0, // values from 0 to 3000, with step 50ms
+                                duration: 400, // values from 0 to 3000, with step 50ms
+                                easing: 'ease', // default easing for AOS animations
+                                once: false, // whether animation should happen only once - while scrolling down
+                                mirror: false, // whether elements should animate out while scrolling past them
+                                anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation}
+                            });
+                        </script>
                         <!-- Fullpage js -->
                         <script type="text/javascript " src="https://unpkg.com/fullpage.js/dist/fullpage.min.js "></script>
                         <script src="./assets/js/fullpage.js"></script>
