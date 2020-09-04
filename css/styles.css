@@ -256,12 +256,12 @@ footer {
     }
 }
 
-@media all and (max-width:320px) {
+@media all and (max-width:360px) {
     a.button3 {
         display: block;
         margin: 0.2em auto;
     }
     .bottom-pull {
-        padding-top: 110%;
+        padding-top: 100%;
     }
 }
