@@ -252,9 +252,21 @@ footer {
         display: none;
     }
     .bottom-pull {
-        padding-top: 40%;
+        padding-top: 80%;
     }
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .bottom-pull {
+        padding-top: 100%;
+    }
+}
+
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
 
 @media all and (max-width:360px) {
     a.button3 {
