@@ -260,6 +260,15 @@ footer {
     .bottom-pull {
         padding-top: 100%;
     }
+    
+}
+@media (max-width: 767px){
+    .footer-text{
+        color:white;
+        text-align: center;
+        padding-bottom: 10px; 
+    }
+    
 }
 
 
@@ -276,4 +285,11 @@ footer {
     .bottom-pull {
         padding-top: 100%;
     }
+}
+.footer-section{
+    background-color: #121213;
+}
+.footer-text{
+    color:white;
+
 }
