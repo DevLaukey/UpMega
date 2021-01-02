@@ -289,7 +289,8 @@ footer {
 .footer-section{
     background-color: #121213;
     align-content: center;
-    padding: 10px;
+    padding-top: 10vh;
+    text-align: center;
   
 }
 .footer-text{
