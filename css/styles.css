@@ -288,6 +288,8 @@ footer {
 }
 .footer-section{
     background-color: #121213;
+    align-content: center;
+    padding: 20px;
 }
 .footer-text{
     color:white;
