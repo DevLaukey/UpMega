@@ -322,12 +322,27 @@ footer {
     text-align: center;
 }
 .footer-icons{
-    display: flex;
+ 
+    align-items: center;
     text-align: center;
 }
 .fab{
     font-size: 20px;
     padding: 15px;
+}
+.col{
+    padding-bottom: 15px;
+}
+@media (max-width:768px){
+    .legal{
+        display: none;
+    }
+    .more{
+        display: none;
+    }
+    .about{
+        display: none;
+    }
 }
 
 .button1 {
@@ -373,3 +388,7 @@ footer {
  .button1:before {
         width: 100%;
       }
+
+.learn{
+    text-align: center;
+}
