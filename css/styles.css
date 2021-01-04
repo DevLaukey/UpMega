@@ -296,13 +296,19 @@ footer {
 .footer-section{
     background-color: #121213;
     align-content: center;
-    padding-top: 10vh;
+    padding-top: 10px;
     text-align: center;
   
 }
+#footer-logo{
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .footer-text{
     color:white;
-
+    padding-top:50px;
+    padding-left: 20px;
 }
 .home-name{
     padding: 30px;
@@ -323,3 +329,47 @@ footer {
     font-size: 20px;
     padding: 15px;
 }
+
+.button1 {
+    display: inline-block;
+    padding: .50rem 3rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: .15rem;
+    transition: all .3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.button1:after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #778285;
+      border-radius: 10rem;
+      z-index: -2;
+    }
+.button1:before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0%;
+      height: 100%;
+      background-color: darken(#8a9597, 15%);
+      transition: all .3s;
+      border-radius: 10rem;
+      z-index: -1;
+    }
+.button1:hover {
+      color: #fff;
+      background-color: burlywood;
+}
+ .button1:before {
+        width: 100%;
+      }
