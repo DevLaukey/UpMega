@@ -34,6 +34,15 @@ body {
     font-family: 'Suwannaphum', cursive;
 }
 
+.part0 {
+    background-image: url(/assets/images/kiti.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border: floralwhite;
+    /* -webkit-transform: scale(1.5) */
+}
 .part1 {
     background-image: url(/assets/images/p4.jpeg);
     background-repeat: no-repeat;
@@ -254,22 +263,20 @@ footer {
     .bottom-pull {
         padding-top: 75%;
     }
+  
+    
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
     .bottom-pull {
         padding-top: 100%;
     }
-    
-}
-@media (max-width: 767px){
-    .footer-text{
-        color:white;
+    .home-button{
+        padding-top: 100px;
         text-align: center;
-        padding-bottom: 10px; 
     }
-    
 }
+
 
 
 /* 
@@ -296,4 +303,23 @@ footer {
 .footer-text{
     color:white;
 
+}
+.home-name{
+    padding: 30px;
+    font-size: 45px;
+    font-weight: bolder;
+    
+}
+
+.home-button{
+    padding-top: 120px;
+    text-align: center;
+}
+.footer-icons{
+    display: flex;
+    text-align: center;
+}
+.fab{
+    font-size: 20px;
+    padding: 15px;
 }
