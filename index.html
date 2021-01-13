@@ -36,22 +36,22 @@
                 <div class=blockB>
                     <ul>
                         <a href=#part1>
-                            <li>Triple Model</li>
+                            <li class="nav_text">TRIPLE MODEL</li>
                         </a>
                         <a href=#part2>
-                            <li>Double Model</li>
+                            <li class="nav_text">DOUBLE MODEL</li>
                         </a>
                         <a href=#part3>
-                            <li>Single Model</li>
+                            <li class="nav_text">SINGLE MODEL</li>
                         </a>
                         <a href=#part4>
-                            <li>Sets</li>
+                            <li class="nav_text">SETS</li>
                         </a>
                     </ul>
                 </div>
                 <div class=block>
                     <ul>
-                        <li>Shop Now</li>
+                        <li class="nav_text">SHOP NOW</li>
                         <li>
                             <h1 class="fa fa-bars" id=myBtn aria-hidden=true></h1>
                         </li>
@@ -326,19 +326,18 @@
                 </div>
                 <br>
                 <div class="footer-text col-md-2 ">
-                    <h3 id="footer-logo">
-                        Products
-                        </h1> <br>
-                        <h5>Pillows</h5><br>
-                        <h5>Frame</h5><br>
-                        <h5>Sheets</h5><br>
-                        <h5>Down Alternative Pillow</h5><br>
-                        <h5>View all Products</h5>
+                    <h1 id="footer-logo">
+                        PRODUCTS </h1> <br>
+                    <h5>Pillows</h5><br>
+                    <h5>Frame</h5><br>
+                    <h5>Sheets</h5><br>
+                    <h5>Down Alternative Pillow</h5><br>
+                    <h5>View all Products</h5>
                 </div>
                 <br>
                 <div class="footer-text col-md-2 ">
                     <h3 id="footer-logo">
-                        Legal
+                      LEGAL
                     </h3> <br>
                     <h5>
                         100-Night Trial
@@ -354,7 +353,7 @@
                 <br>
                 <div class="footer-text col-md-2 ">
                     <h1 id="footer-logo">
-                        About
+                      ABOUT
                     </h1> <br>
                     <h5>
                         Our Story
@@ -368,7 +367,7 @@
                 <br>
                 <div class="footer-text col-md-2 ">
                     <h1 id="footer-logo">
-                        More
+                        MORE
                     </h1> <br>
                     <h5>
                         Blog
@@ -381,62 +380,82 @@
                 </div>
                 <br>
                 <div class="footer-text col-md-2 ">
-                    <div class="footer-section">
-                        <a href=something class="button3 footer-button" >Learn More</a>
+                    <div class="footer-learnmore">
+                        <a href=something class="button3 footer-button">Learn More</a>
                     </div>
                     <div class="footer-icons">
                         <h1>
-                            <i class="fab fa-facebook-f"></i>
-                        </h5>
-                        <h5>
-                            <i class="fab fa-twitter"></i>
-                        </h5>
-                        <h5>
-                            <i class="fab fa-instagram"></i>
-                        </h5>
+                            <i class="fab fa-facebook-f fa-2x"></i>
+                            </h5>
+                            <h5>
+                                <i class="fab fa-twitter fa-2x"></i>
+                            </h5>
+                            <h5>
+                                <i class="fab fa-instagram fa-2x"></i>
+                            </h5>
                     </div>
                 </div>
-        </footer>
+            </div>
 
-        <script src=https://unpkg.com/aos@next/dist/aos.js></script>
-        <script>
-            AOS.init();
-            / You can also pass an optional settings object
-            // below listed default settings
-            AOS.init({
-                // Global settings:
-                disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
-                startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
-                initClassName: 'aos-init', // class applied after initialization
-                animatedClassName: 'aos-animate', // class applied on animation
-                useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
-                disableMutationObserver: false, // disables automatic mutations' detections (advanced)
-                debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
-                throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+            <form>
+                <div class="container">
+                    <h2 style="color: white;">Subscribe to our Newsletter</h2>
+                    <p style="color: white;">Here more from our team</p>
+                </div>
+
+                <div class="container">
+                    <input type="text" placeholder="Name" name="name" required>
+                    <input type="text" placeholder="Email address" name="mail" required>
+               
+                </div>
+
+                <div class="container">
+                    <input type="submit" value="Subscribe">
+                </div>
+            </form>
+    </div>
+
+    </footer>
+
+    <script src=https://unpkg.com/aos@next/dist/aos.js></script>
+    <script>
+        AOS.init();
+        / You can also pass an optional settings object
+        // below listed default settings
+        AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
 
 
-                // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
-                offset: 120, // offset (in px) from the original trigger point
-                delay: 0, // values from 0 to 3000, with step 50ms
-                duration: 400, // values from 0 to 3000, with step 50ms
-                easing: 'ease', // default easing for AOS animations
-                once: false, // whether animation should happen only once - while scrolling down
-                mirror: false, // whether elements should animate out while scrolling past them
-                anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation}
-            });
-        </script>
-        <script type="text/javascript " src="https://unpkg.com/fullpage.js/dist/fullpage.min.js "></script>
-        <script src=./assets/js/fullpage.js></script>
-        <script>
-            new fullpage('#fullpage', {
-                scrollingSpeed: 1000,
-                verticalCentered: false,
-                easing: 'easeInOutCubic',
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 400, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation}
+        });
+    </script>
+    <script type="text/javascript " src="https://unpkg.com/fullpage.js/dist/fullpage.min.js "></script>
+    <script src=./assets/js/fullpage.js></script>
+    <script>
+        new fullpage('#fullpage', {
+            scrollingSpeed: 1000,
+            verticalCentered: false,
+            easing: 'easeInOutCubic',
 
-            });
-        </script>
-        <script src=./js/navbar.js></script>
-        <script type=text/javascript>
+        });
+    </script>
+    <script src=./js/navbar.js></script>
+    <script type=text/javascript>
                             var Tawk_API = Tawk_API || {},
                                 Tawk_LoadStart = new Date();
                             (function() {
